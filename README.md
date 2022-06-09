@@ -36,7 +36,7 @@ Upsampling an image is making an image bigger by adding more pixels. For every p
 
 To combine two images, a black and white mask is used. The mask is the template for the blended image and can be any shape. To use a mask, you assign all the pixels of one image to the white portion of the mask, and the pixels of the other image to the black portion.
 
-![image](https://user-images.githubusercontent.com/84482670/172963054-9181c2a9-e063-48db-a641-c206292f7bcc.png)
+![image](https://user-images.githubusercontent.com/84482670/172963354-8c3adef9-b33a-46b7-88f7-f2698706fc62.png)
 
 
 
