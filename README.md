@@ -2,7 +2,7 @@
 
 Image blending is the process of taking two images and combining them smoothly. It’s different than just combining images because in image blending, the output image should be seamless and have no sharp edges.
 
-![image](https://user-images.githubusercontent.com/84482670/172959241-8dc0b8cc-7f64-412d-85b2-5d947b69a046.png)
+![image](https://user-images.githubusercontent.com/84482670/172959308-70abe9e8-edcb-4391-9ff1-57cc97736182.png)
 
 
 
