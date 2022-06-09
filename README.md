@@ -26,7 +26,7 @@ The convolution operation is a function that smooths an image by taking the weig
 The laplacian pyramid is the difference between a gaussian pyramid image and the upsampled version of the level before it.To generate a laplacian pyramid image, first a gaussian pyramid is created. Then, the gaussian pyramid one level before is upsampled and subtracted from the current gaussian image. 
 
 
-![image](https://user-images.githubusercontent.com/84482670/172959819-e2fb46a2-94ff-419b-912f-8a13d41fd5b7.png)
+![image](https://user-images.githubusercontent.com/84482670/172961395-1939c239-15a4-4b4d-b862-21ec2f671ef0.png)
 
 
 
