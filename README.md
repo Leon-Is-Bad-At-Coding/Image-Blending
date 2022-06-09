@@ -18,13 +18,13 @@ The gaussian pyramid is an image consisting of multiple downsampled copies of th
 
 Downsampling an image is when certain pixels are removed to make the image smaller, but still retaining the overall image.To smooth an image, every pixel becomes the average of the surrounding pixels. Smoothing takes away sharp edges and makes it better when downsampled. If you downsample an image without smoothing it first, the output image becomes aliased and looks very pixelated. 
 
-![image](https://user-images.githubusercontent.com/84482670/172961656-4f9e7df6-53f1-4e8a-a2a3-7b026667ea4a.png)
+![image](https://user-images.githubusercontent.com/84482670/172961942-9e6c455f-05e3-49da-9542-715e0d3e695e.png)
 
 
 
 The convolution operation is a function that smooths an image by taking the weighted average of surrounding pixels within the kernel size. The kernel is the size around the pixel that is being averaged and the weight of each pixel. Bigger kernels result in smoother images.
 
-![image](https://user-images.githubusercontent.com/84482670/172961914-22fb4553-8c88-471f-86be-49fc4a930a33.png)
+
 
 
 
