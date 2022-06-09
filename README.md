@@ -2,7 +2,7 @@
 
 Image blending is the process of taking two images and combining them smoothly. It’s different than just combining images because in image blending, the output image should be seamless and have no sharp edges.
 
-![image](https://user-images.githubusercontent.com/84482670/172959308-70abe9e8-edcb-4391-9ff1-57cc97736182.png)
+![image](https://user-images.githubusercontent.com/84482670/172959739-8507fd5b-6f0c-4599-a06d-c91c4f9a4c17.png)
 
 
 
@@ -24,8 +24,8 @@ The convolution operation is a function that smooths an image by taking the weig
 
 The laplacian pyramid is the difference between a gaussian pyramid image and the upsampled version of the level before it.To generate a laplacian pyramid image, first a gaussian pyramid is created. Then, the gaussian pyramid one level before is upsampled and subtracted from the current gaussian image. 
 
-![image](https://user-images.githubusercontent.com/84482670/172959666-8090ca7c-d28a-460a-af1d-cdea6d936946.png)
 
+![Uploading image.png…]()
 
 
 
