@@ -16,14 +16,9 @@ The gaussian pyramid is an image consisting of multiple downsampled copies of th
 
 
 
-Downsampling an image is when certain pixels are removed to make the image smaller, but still retaining the overall image.To smooth an image, every pixel becomes the average of the surrounding pixels. Smoothing takes away sharp edges and makes it better when downsampled. If you downsample an image without smoothing it first, the output image becomes aliased and looks very pixelated. 
+Downsampling an image is when certain pixels are removed to make the image smaller, but still retaining the overall image.To smooth an image, every pixel becomes the average of the surrounding pixels. Smoothing takes away sharp edges and makes it better when downsampled. If you downsample an image without smoothing it first, the output image becomes aliased and looks very pixelated. The convolution operation is a function that smooths an image by taking the weighted average of surrounding pixels within the kernel size. The kernel is the size around the pixel that is being averaged and the weight of each pixel. Bigger kernels result in smoother images.
 
 ![image](https://user-images.githubusercontent.com/84482670/172961942-9e6c455f-05e3-49da-9542-715e0d3e695e.png)
-
-
-
-The convolution operation is a function that smooths an image by taking the weighted average of surrounding pixels within the kernel size. The kernel is the size around the pixel that is being averaged and the weight of each pixel. Bigger kernels result in smoother images.
-
 
 
 
@@ -36,7 +31,14 @@ The laplacian pyramid is the difference between a gaussian pyramid image and the
 
 
 
-Upsampling an image is making an image bigger by adding more pixels. For every pixel, a new one is created by averaging the pixels around it. To combine  the two images, a black and white mask is used. The mask is the template for the blended image and can be any shape. To use a mask, you assign all the pixels of one image to the white portion of the mask, and the pixels of the other image to the black portion.
+Upsampling an image is making an image bigger by adding more pixels. For every pixel, a new one is created by averaging the pixels around it. 
+
+
+To combine two images, a black and white mask is used. The mask is the template for the blended image and can be any shape. To use a mask, you assign all the pixels of one image to the white portion of the mask, and the pixels of the other image to the black portion.
+
+![image](https://user-images.githubusercontent.com/84482670/172963054-9181c2a9-e063-48db-a641-c206292f7bcc.png)
+
+
 
 
 Here are the steps to the algorithm:
