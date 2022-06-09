@@ -11,6 +11,7 @@ The inputs of the algorithm are the two images being combined, and the mask (the
 
 The gaussian pyramid is an image consisting of multiple downsampled copies of the same image. To generate a gaussian pyramid, the image is smoothed and downsampled until the inputed level is reached.
 
+![image](https://user-images.githubusercontent.com/84482670/172961251-b7611f0a-e6ce-4e69-8848-19bb8d53cc61.png)
 
 
 
