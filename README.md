@@ -13,6 +13,7 @@ The gaussian pyramid is an image consisting of multiple downsampled copies of th
 
 
 This is an example of a gaussian pyramid:
+
 ![image](https://user-images.githubusercontent.com/84482670/172961251-b7611f0a-e6ce-4e69-8848-19bb8d53cc61.png)
 
 
@@ -30,6 +31,7 @@ The laplacian pyramid is the difference between a gaussian pyramid image and the
 
 
 Here is an example of a lapplacian pyramid
+
 ![image](https://user-images.githubusercontent.com/84482670/172961395-1939c239-15a4-4b4d-b862-21ec2f671ef0.png)
 
 
@@ -40,6 +42,7 @@ Upsampling an image is making an image bigger by adding more pixels. For every p
 To combine two images, a black and white mask is used. The mask is the template for the blended image and can be any shape. To use a mask, you assign all the pixels of one image to the white portion of the mask, and the pixels of the other image to the black portion.
 
 This is an example of a circular mask.
+
 ![image](https://user-images.githubusercontent.com/84482670/172963354-8c3adef9-b33a-46b7-88f7-f2698706fc62.png)
 
 
